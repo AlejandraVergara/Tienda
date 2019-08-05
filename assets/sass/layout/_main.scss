@@ -1,0 +1,54 @@
+/* Hero Section
+ ========================================================================== */
+ .newsletter__featured-image {
+    width: 100%;
+    height: 550px;
+    background-image: url(../../assets/img/large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .newsletter__main-content {
+    padding: 50px 30px;
+  }
+  .newsletter__main-content h1 {
+    margin: 0;
+    font-family: $open-standar;
+  }
+  .newsletter__main-content p {
+    padding-top: 0.5rem;
+  }
+  .newsletter__main-content .newsletter__button {
+    padding-top: 16px;
+  }
+  
+  .newsletter__info_small {
+    height: 200px;
+    padding: 50px 60px;
+  }
+  
+  .newsletter__info_small {
+    width: 100%;
+    background-color: $smoky-black;
+  }
+  
+  .newsletter__info_medium {
+    width: 0%;
+    height: 0%;
+    display: inline-block;
+    background-color: $white;
+    padding-left: 60px;
+  }
+  .newsletter__info_small h6, h3 {
+    color: $white;
+  }
+
+  .rotate {
+    -moz-transform: rotate(90deg);
+    /* FF3.5+ */
+    -o-transform: rotate(90deg);
+    /* Opera 10.5 */
+    -webkit-transform: rotate(90deg);
+    /* Saf3.1+, Chrome */
+  }

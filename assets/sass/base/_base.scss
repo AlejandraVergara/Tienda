@@ -1,0 +1,35 @@
+
+ /* Base Styles
+   ========================================================================== */
+/**
+* Define el tamaño del diseño a 1280px
+*/
+body {
+    width: 100%;
+    margin: 0 auto; 
+    height: 50vh;
+    background-color: $white;
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $regular;
+  }
+  
+  /**
+   * Cambia el flujo del HTML pudiendo flotar los elementos a la izquierda
+   */
+  .float {
+    float: left;
+  }
+  
+  /**
+   * Limpia el flujo del HTML luego de usar floats
+   */
+  .clear {
+    clear: both;
+  }
+
+ .nav-item a {
+    color: $smoky-black;
+    font-weight: $bold;
+    font-family: $raleway;
+  }
